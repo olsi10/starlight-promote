@@ -29,7 +29,7 @@
 
 |메인 페이지(데스크탑)|점포 페이지(데스크탑)|점포 페이지(모바일)|
 |:--:|:--:|:--:|
-|<img src="https://user-images.githubusercontent.com/87300199/187198456-3eb146c0-e07f-4c1a-9c79-72c7ee6d7e94.png" width="900">|<img src="https://user-images.githubusercontent.com/87300199/187198528-6c0d0faa-7fef-4bfa-9322-03bb542a6bd9.png" width="900">|<img src="https://user-images.githubusercontent.com/87300199/187198729-141ac567-0a0a-44f9-a0dd-e9006ab9ec98.png" width="900">
+|<img src="https://user-images.githubusercontent.com/87300199/187198456-3eb146c0-e07f-4c1a-9c79-72c7ee6d7e94.png" width="900">|<img src="https://user-images.githubusercontent.com/87300199/187198528-6c0d0faa-7fef-4bfa-9322-03bb542a6bd9.png" width="900">|<img src="https://user-images.githubusercontent.com/87300199/187210852-0bd1fc86-d176-49b0-bed8-64fa1392b0d8.png" width="900">
 
 <br />
 
