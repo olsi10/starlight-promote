@@ -133,5 +133,41 @@ social ul li img :hover {
 }
 
 @media screen and (max-width:900px){
-    
+    #logo{
+        width: 154px;
+        height: 94px ;
+    }
+    .title{
+        font-size: 1.5rem;
+    }
+    .subtitle{
+        font-size: 1rem;
+    }
+    .introduce{
+        font-size: 0.5rem;
+    }
+    .container { 
+        height: 390px;
+        margin-top: 40px;
+    }
+}
+
+@media screen and (max-width:600px) {
+    #logo{
+        width: 101px;
+        height: 62px ;
+    }
+    .title{
+        font-size: 1rem;
+    }
+    .subtitle{
+        font-size: 0.8rem;
+    }
+    .introduce{
+        font-size: 0.5rem;
+    }
+    .container { 
+        height: 245px; 
+        margin-top: 30px;
+    }
 }
