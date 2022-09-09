@@ -19,12 +19,14 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #23468B;
+    background-color: #191f79;
 }
 
 p {
+    font-family: 'Nanum Myeongjo', serif;
     font-size: 1.4rem;
     text-align: center;
+    word-spacing: 2px;
     color: #fff;
 }
 
@@ -33,6 +35,18 @@ p {
     height: auto;
     margin-top: 138px;
     object-fit: cover;
+}
+
+.icon1 {
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    top: 900px;
+    left:400px
+}
+
+a {
+    text-decoration: none;
 }
 
 main {
