@@ -3,24 +3,66 @@ body {
     margin: 0;
 }
 
-header {
-    text-align: center;
-}
-
-#logo {
-    width: 232px;
-    height: 142px;
-}
-
-.container { 
+/*** containers ***/
+.container {
     width: 100%;
-    height: 400px;
-    margin-top: 40px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: #191f79;
+    margin-top: 50px;
+    background-position: center;
+    background-size: cover;
 }
+
+.box1 { 
+    height: 900px;
+    background-image: url(/img/Main1.png);
+}
+
+.box2 { 
+    height: 1024px;
+    background-image: url(/img/Main2.png);
+}
+
+.box3 { 
+    height: 1024px;
+    background-image: url(/img/Main3.png);
+}
+
+.word {
+    color: #FFD02C;
+    font-size: 3.75rem ;
+}
+
+.intro {
+    color: #fff;
+    font-size: 1.875rem;
+}
+
+.main-content {
+    color: #fff;
+    font-size: 1.25rem;
+}
+
+.main-content-bold {
+    color: #fff;
+    font-size: 1.25rem;
+    font-weight: bold;
+}
+
+.line-content {
+    color: #000;
+    font-size: 1.563rem;
+}
+
+.title-content {
+    color: #8E005E;
+    font-size: 1.875rem;
+}
+
+
+
+
+
+
+
 
 p {
     font-family: 'Nanum Myeongjo', serif;
@@ -58,6 +100,74 @@ main {
     min-height: 100%;
     padding-bottom: 316px;
 }
+
+@media screen and (max-width: 600px) {
+    #logo {
+        width: 100px;
+        height: 62px;
+    }
+
+    p {
+        font-size: 0.8rem;
+    }
+
+    .container { 
+        height: 250px;
+        margin-top: 10px;
+    }
+    
+    #map {
+        display: none;
+    }
+
+    main {
+        display: flex;
+        padding: 35px;
+        column-gap: 42px;
+        row-gap: 30px;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+
+    .card {
+        background-color: #FFD02C;
+        border-radius: 1rem;
+        width: 138px;
+        height: 171px;
+        cursor: pointer;
+    }
+
+    .card:hover {
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    .card-image { 
+        width: 138px;
+        height: 128px;
+        object-fit: cover;
+        border-radius: 1rem 1rem 0 0;
+    }
+
+    .card-title {
+        display: flex;
+        justify-content: center; 
+        column-gap: 20px;
+        font-size: 13px;
+    }
+
+    .card-menu {
+        font-size: 10px;
+        text-align: center; 
+        margin: 0;
+        color: #000;
+    }
+
+    #wrapper {
+        padding-bottom: 100px;
+    }
+}
+
+/*** FOOTER ***/
 
 footer{
     width: 100%;
@@ -130,87 +240,4 @@ social ul li img :hover {
 
 .clearfix {
   clear: both;
-}
-
-@media screen and (max-width: 834px) {
-    #logo {
-        width: 154px;
-        height: 94px;
-    }
-
-    p {
-        font-size: 1rem;
-    }
-
-    .container { 
-        height: 300px;
-        margin-top: 20px;
-    }
-    
-}
-
-@media screen and (max-width: 600px) {
-    #logo {
-        width: 100px;
-        height: 62px;
-    }
-
-    p {
-        font-size: 0.8rem;
-    }
-
-    .container { 
-        height: 250px;
-        margin-top: 10px;
-    }
-    
-    #map {
-        display: none;
-    }
-
-    main {
-        display: flex;
-        padding: 35px;
-        column-gap: 42px;
-        row-gap: 30px;
-        flex-wrap: wrap;
-        justify-content: space-evenly;
-    }
-
-    .card {
-        background-color: #FFD02C;
-        border-radius: 1rem;
-        width: 138px;
-        height: 171px;
-        cursor: pointer;
-    }
-
-    .card:hover {
-        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    }
-
-    .card-image { 
-        width: 138px;
-        height: 128px;
-        object-fit: cover;
-        border-radius: 1rem 1rem 0 0;
-    }
-
-    .card-title {
-        display: flex;
-        justify-content: center; 
-        column-gap: 20px;
-        font-size: 13px;
-    }
-
-    .card-menu {
-        font-size: 10px;
-        text-align: center; 
-        margin: 0;
-        color: #000;
-    }
-
-    #wrapper {
-        padding-bottom: 100px;
-    }
 }
