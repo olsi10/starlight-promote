@@ -58,7 +58,7 @@ ul li:hover> ul {
     display: flex;
     justify-content: center;
     cursor: pointer;
-    margin: 25px auto;
+    margin: 35px auto;
 }
 
 .nav > ul > li{
@@ -78,7 +78,7 @@ ul li:hover> ul {
 
 .sub-nav li > a{
     display: block;
-    line-height: 3;
+    line-height: 2.7;
     text-align: center;
 }
 
