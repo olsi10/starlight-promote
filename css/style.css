@@ -57,50 +57,6 @@ body {
     font-size: 1.875rem;
 }
 
-
-
-
-
-
-
-
-p {
-    font-family: 'Nanum Myeongjo', serif;
-    font-size: 1.4rem;
-    text-align: center;
-    word-spacing: 2px;
-    color: #fff;
-}
-
-#map {
-    max-width: 100%;
-    height: auto;
-    margin-top: 138px;
-    object-fit: cover;
-}
-
-.icon1 {
-    width: 30px;
-    height: 30px;
-    position: absolute;
-    top: 900px;
-    left:400px
-}
-
-a {
-    text-decoration: none;
-}
-
-main {
-    display: none;
-}
-
-#wrapper{
-    height: auto;
-    min-height: 100%;
-    padding-bottom: 316px;
-}
-
 @media screen and (max-width: 600px) {
     #logo {
         width: 100px;
@@ -171,9 +127,10 @@ main {
 
 footer{
     width: 100%;
+    margin-top: 180px;
     background-color: #23468B;
 }
-  
+
 .contain {
   display: flex;
   justify-content: space-evenly;  
