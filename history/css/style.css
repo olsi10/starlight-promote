@@ -38,3 +38,24 @@ h2{
     display: inline-block;
 }
 
+/* page2 */
+#page2{
+    margin-top: 50px;
+    height: 600px;
+    text-align: right;
+}
+#box1{
+    margin-top: 10%;
+}
+#box1 img{
+    vertical-align: middle;
+    border-radius: 20px;
+    width: 389px;
+    height: 244px;
+    margin-right: 10%;
+}
+.txt2{
+    display: inline-block;
+    margin-right: 5%;
+    text-align: center;
+}
