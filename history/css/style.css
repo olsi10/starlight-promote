@@ -22,21 +22,19 @@ header{
 h2{
     padding-top: 50px;
 }
-.text{
+#page1{
+    margin-top: 50px;
     height: 380px;
-}
-.general{
-    width: 308px;
-    height: 369px;
-    margin-left: 15%;
-    float: left;
-}
-p{
-    justify-content: center;
-    align-items: center;
-}
-.txt1{
-    justify-content: center;
-    align-items: center;
     text-align: center;
 }
+#page1 img{
+    width: 308px;
+    height: 369px;
+    margin-right: 100px;
+    vertical-align: middle;
+}
+.txt1{
+    margin-left: 70px;
+    display: inline-block;
+}
+
