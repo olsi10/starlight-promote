@@ -45,7 +45,7 @@ h2{
     text-align: right;
 }
 #box1{
-    margin-top: 10%;
+    margin-top: 80px;
 }
 #box1 img{
     vertical-align: middle;
@@ -55,6 +55,21 @@ h2{
     margin-right: 10%;
 }
 .txt2{
+    display: inline-block;
+    margin-right: 5%;
+    text-align: center;
+}
+#box2{
+    margin-top: 80px;
+}
+#box2 img{
+    vertical-align: middle;  
+    border-radius: 20px;
+    width: 389px;
+    height: 258px;
+    margin-right: 10%;
+}
+.txt3{
     display: inline-block;
     margin-right: 5%;
     text-align: center;
