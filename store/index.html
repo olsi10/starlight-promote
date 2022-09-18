@@ -11,60 +11,38 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
     <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="/css/nav.css">
     <title>store</title>
 </head>
 <body>
-    <header>
-        <img src="/img/logo.png" id="logo">
-    </header>
-
-    <div class="jumpo">
-        <img src="/img/jumpo.png" id="jumpo" width="100%" height="500px">
-        <div class="text-box">
-            <p class="title">점포명</p>
-            <p class="subtitle">점포 부제목</p>
-            <p class="introduce">점포 소개</p>
-        </div>
+  <div class="header">
+    <div class="logo">
+        <img src="/img/logo.png" alt="" class="logo">
     </div>
-
-    <div>
-        <img src="/img/jumpomap.png" id="jumpomap" width="100%" height="900px">
-    </div>
-
-</body>
-<footer>
-    <div class="contain">
-        <div class="col">
-          <h1>Company</h1>
-          <ul>
-            <li>서울특별시 관악구 호암로 546</li>
-            <li>전화 : 02 - 1234 - 5678</li>
-            <li>팩스 : 02 - 020 - 202</li>
-            <li>개발자 메일 : </li>
-            <li>w2112@e-mirim.hs.kr</li>
-            <li>w2115@e-mirim.hs.kr</li> 
-            <li>w2127@e-mirim.hs.kr</li> 
-          </ul>
-        </div>
-        <div class="col">
-          <h1>Products</h1>
-          <ul>
-            <li>Home</li>
-            <li>개인정보 처리방침</li>
-            <li>이용약관</li>
-            <li>개인정보보호정책</li>
-            <li>FAQ</li>
-          </ul>
-        </div>
-        <div class="col social">
-            <h1>Social</h1>
-            <ul>
-              <li><i class='bx bxl-instagram'></i></li>
-              <li><i class='bx bxl-facebook' ></i></li>
-              <li><i class='bx bxl-twitter' ></i></li>
+    <div class="nav">
+        <ul>
+            <li class ="active"><a href="#">별빛 신사리</a>
+                <ul class ="sub-nav">
+                    <li><a href="#">개요</a></li>
+                </ul>
+            </li>
+            
+            <li><a href="#">점포 소개</a>
+                <ul class ="sub-nav">
+                    <li><a href="#">점포 위치</a></li>
+                    <li><a href="#">점포 관련 콘텐츠</a></li>
+                </ul>
+            </li>
+            
+            <li><a href="#">소식</a>
+                <ul class ="sub-nav">
+                    <li><a href="#">별빛 신사리 기사</a></li>
+                    <li><a href="#">별빛 신사리 영상</a></li>
+                    <li><a href="#">별빛 신사리 홍보 콘텐츠</a></li>
+                </ul></li>
             </ul>
-        </div>
-        <div class="clearfix"></div>
     </div>
-</footer>
+</div>
+<script src="/js/nav.js"></script>
+</body>
 </html>

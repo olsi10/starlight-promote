@@ -1,0 +1,111 @@
+@font-face {
+    font-family: 'GyeonggiBatang';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_one@1.0/GyeonggiBatang.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+* {
+    font-family: 'GyeonggiBatang';
+}
+
+body {
+    margin: 0;
+}
+
+
+.container {
+    display: block;
+    width: 100%;
+    height: 2000px;
+    margin-top: 70px;
+    background-color: #112F6B;
+    position: relative;
+}
+
+.main {
+    display: block;
+    width: 80%;
+    height: 80%;
+    margin: 60px auto;
+    background-color: #fff;
+    justify-content: center;
+}
+
+/* MAP / CONTENT DIV */
+.MC {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    height: 50px;
+    background-color: #fff;
+}
+
+.mc-grid {
+    display: grid;
+    grid-template-columns: 150px 150px;
+}
+
+.mc-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+}
+
+.mc-div:hover {
+    background-color: #FFD02C;
+    cursor: pointer;
+}
+
+.map {
+    display: flex;
+    width: 100%;
+    height: 550px;
+    margin-top: 100px;
+}
+
+.map-img {
+    object-fit:scale-down;
+    width: 100%;
+    height: 500px;
+}
+
+.store-grid {
+    display: grid;
+    width: 90%;
+    margin: 0 auto;
+    grid-template-columns: 120px repeat(3, 1fr) 100px;
+    line-height: 2;
+    color: #112F6B;
+}
+
+.grid-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #112F6B;
+}
+
+/*** FOOTER ***/
+
+footer{
+    width: 100%;
+    height: 200px;
+    margin-top: 180px;
+    background-color: #fff;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.col-box1 {
+    margin-left: 100px;
+}
+
+.col-box2 {
+    padding-top: 35px;
+    margin-right: 100px;
+}
