@@ -6,44 +6,40 @@ body {
 /*** containers ***/
 .container {
     width: 100%;
+    margin-bottom: 50px;
     background-position: center;
-    background-size: cover;
+    background-size: contain;
 }
 
 .box1 { 
     height: 900px;
-    background-image: url(/img/Main1.png);
+    background-image: url(/img/main1.png);
 }
 
 .box2 { 
     height: 1024px;
-    background-image: url(/img/Main2.png);
+    background-image: url(/img/main2.png);
 }
 
 .box3 { 
     height: 1024px;
-    background-image: url(/img/Main3.png);
+    background-image: url(/img/main3.png);
 }
 
-.word {
+.keyword {
     color: #FFD02C;
-    font-size: 3.75rem ;
+    font-size: 3.75rem;
 }
 
 .intro {
     color: #fff;
     font-size: 1.875rem;
+    letter-spacing: 0.3rem;
 }
 
 .main-content {
     color: #fff;
     font-size: 1.25rem;
-}
-
-.main-content-bold {
-    color: #fff;
-    font-size: 1.25rem;
-    font-weight: bold;
 }
 
 .line-content {
@@ -52,8 +48,85 @@ body {
 }
 
 .title-content {
-    color: #8E005E;
+    color: #FFD02C;
     font-size: 1.875rem;
+}
+
+/*** box2 ***/
+.box2 .keyword {
+    padding-top: 5rem;
+    margin-left: 40rem;
+}
+
+.box2 .intro {
+    margin-left: 12rem;
+}
+
+.box2 .main-content {
+    position: absolute;
+    padding-top: 8rem;
+    margin-left: 16rem;
+    text-align: center;
+}
+
+.box2 .line-content {
+    position: absolute;
+    padding-top: 41rem;
+    margin-left: 55rem;
+}
+
+.box2 .main-img {
+    padding-top: 4rem;
+    margin-left: 60rem;
+}
+
+.box2 .moon-img {
+    margin-top: -14rem;
+    margin-left: 10rem;
+}
+
+/*** box3 ***/
+.box3 .intro {
+    padding-top: 4.5rem;
+    margin-left: 70rem;
+}
+
+.box3 .keyword {
+    margin-left: 70rem;
+}
+
+.box3 .line-content {
+    padding-top: 5rem;
+    margin-left: 18rem;
+}
+
+.box3 .title-content {
+    position: relative;
+    padding-top: 10rem;
+    margin-left: 55rem;
+}
+
+.box3 .main-content {
+    position: relative;
+    margin-top: 4rem;
+    margin-left: 56.5rem;
+    list-style-type: square;
+}
+
+.box3 span {
+    color: #FFD02C;
+}
+
+.box3 .main-img {
+    position: relative;
+    margin-top: -22rem;
+    margin-left: 8rem;
+}
+
+.box3 .bridge-img {
+    position: relative;
+    margin-top: -9rem;
+    margin-left: 84.6rem;
 }
 
 @media screen and (max-width: 600px) {
