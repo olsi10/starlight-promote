@@ -36,6 +36,27 @@ body{
     justify-content: center;
 }
 
+/* page1 */
+#page1{
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#page1 img{
+    margin-top: 50px;
+    width: 625px;
+    height: 579px;
+    margin-right: 10%;
+    vertical-align: middle;
+}
+.txt1{
+    margin-top: 50px;
+    display: inline-block;
+    font-size: 60px;
+    text-align: center;
+    align-items: center;
+}
 
 
 /*** FOOTER ***/
