@@ -76,7 +76,7 @@ ul li:hover> ul {
 }
 
 .sub-nav{
-    background-color:rgba(229, 229, 229, 0.6);
+    background-color:#f8f8f8;
     font-size: 13px;
     opacity: 0;
     justify-content: center;
@@ -87,6 +87,11 @@ ul li:hover> ul {
     display: block;
     line-height: 2.7;
     text-align: center;
+    color: var(--sub-color);
+}
+
+.sub-nav li > a:hover {
+    color: var(--main-color);
 }
 
 .nav > ul > li:hover .sub-nav{
