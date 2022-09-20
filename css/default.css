@@ -1,0 +1,19 @@
+@font-face {
+    font-family: 'GyeonggiBatang';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_one@1.0/GyeonggiBatang.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+* {
+    font-family: 'GyeonggiBatang';
+}
+
+:root {
+    --main-color :#1A218A;
+    --sub-color: #FFD02C;
+}
+
+body {
+    margin: 0;
+}
