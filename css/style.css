@@ -8,7 +8,7 @@ body {
     width: 100%;
     margin-bottom: 50px;
     background-position: center;
-    background-size: contain;
+    background-size: cover;
 }
 
 .box1 { 
@@ -18,12 +18,14 @@ body {
 
 .box2 { 
     height: 1024px;
-    background-image: url(/img/main2.png);
+    background-color: #474877;
+    /* background-image: url(/img/main2.png); */
 }
 
 .box3 { 
     height: 1024px;
-    background-image: url(/img/main3.png);
+    background-color: #6b69d8;
+    /* background-image: url(/img/main3.png); */
 }
 
 .keyword {
@@ -43,7 +45,7 @@ body {
 }
 
 .line-content {
-    color: #000;
+    color: #fff;
     font-size: 1.563rem;
 }
 
