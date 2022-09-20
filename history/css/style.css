@@ -1,22 +1,35 @@
 body{
     margin: 0;
-    background-color: #112F6B;
-     margin:30px 50px 30px 50px;
 }
 
 /* container */
-.container{
+.container {
+    display: block;
     width: 100%;
-    height: 2186px;
-    background-color: #FFFFFF;
+    height: 100%;
+    margin-top: 170px;
+    padding: 3px;
+    background-color: #112F6B;
+    position: relative;
 }
-/* header */
-/* header{
 
-} */
+.main {
+    display: block;
+    width: 90%;
+    height: 80%;
+    margin: 60px auto;
+    background-color: #fff;
+    justify-content: center;
+}
+
+
 /* page1 */
 .title{
     text-align: center;
+    color: rgb(75, 75, 75);
+    word-spacing: 2px;
+    line-height: 2;
+    font-size: 13px;
 }
 h1{
     padding-top: 50px;
@@ -35,6 +48,7 @@ h1{
 .txt1{
     margin-left: 70px;
     display: inline-block;
+    line-height: 2;
 }
 
 /* page2 */
@@ -57,6 +71,7 @@ h1{
     display: inline-block;
     margin-right: 5%;
     text-align: center;
+    line-height: 2;
 }
 #box2{
     margin-top: 80px;
@@ -72,6 +87,7 @@ h1{
     display: inline-block;
     margin-right: 5%;
     text-align: center;
+    line-height: 2;
 }
 
 /* page3 */
@@ -81,5 +97,6 @@ h1{
 }
 .txt5{ 
     margin-top: 80px;
+    line-height: 2;
     text-align: center;
 }
