@@ -37,8 +37,9 @@
 .content-box {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
-    width: 100%;
+    justify-content: space-evenly;
+    width: 80%;
+    margin: 0 auto;
 }
 
 .content-text {
@@ -49,6 +50,7 @@
 
 .title {
     font-size: 20px;
+    margin: 0px 0 15px 0;
 }
 
 .title-content {
