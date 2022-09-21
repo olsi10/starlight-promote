@@ -29,6 +29,17 @@ console.log(paginationItems);
 nextBtn.addEventListener("click", () => {
   // 이후 버튼 누를 경우 현재 슬라이드를 변경
   currSlide++;
+
+  if(currSlide == 1) {
+    document.getElementById("img").src = "/img/map/001.jpg";
+    } else if(currSlide == 2) {
+        document.getElementById("img").src = "/img/map/002.jpg";
+    } else if(currSlide == 3) {
+        document.getElementById("img").src = "/img/map/003.jpg";
+    } else if(currSlide == 4) {
+        document.getElementById("img").src = "/img/map/004.jpg";
+}
+  
   // 마지막 슬라이드 이상으로 넘어가지 않게 하기 위해서
   if (currSlide <= maxSlide) {
     // 슬라이드를 이동시키기 위한 offset 계산
@@ -48,6 +59,17 @@ nextBtn.addEventListener("click", () => {
 prevBtn.addEventListener("click", () => {
   // 이전 버튼 누를 경우 현재 슬라이드를 변경
   currSlide--;
+
+  if(currSlide == 1) {
+    document.getElementById("img").src = "/img/map/001.jpg";
+    } else if(currSlide == 2) {
+        document.getElementById("img").src = "/img/map/002.jpg";
+    } else if(currSlide == 3) {
+        document.getElementById("img").src = "/img/map/003.jpg";
+    } else if(currSlide == 4) {
+        document.getElementById("img").src = "/img/map/004.jpg";
+}
+
   // 1번째 슬라이드 이하로 넘어가지 않게 하기 위해서
   if (currSlide > 0) {
     // 슬라이드를 이동시키기 위한 offset 계산
