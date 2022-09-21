@@ -119,8 +119,19 @@ h1{
     #page1 img{
         width: 250px;
         height: 300px;
-        justify-content: center;
+    }
+    .txt-div{
+        position: absolute;
+        top: 30%;
+        left: 30%;
+        transform: 50% 50%;
+        text-align: center;
+    }
+    .txt1{
+        display: block;
+        text-align: center;
         display: flex;
+        justify-content: center;
         align-items: center;
     }
 }
