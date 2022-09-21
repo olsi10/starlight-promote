@@ -12,7 +12,8 @@ body {
 }
 
 .box1 { 
-    height: 900px;
+    max-height: 900px;
+    min-height: 400px;
     background-image: url(/img/main-background.png);
     display: flex;
     justify-content: center;
@@ -20,8 +21,8 @@ body {
 }
 
 .main-logo {
-    width: 1500px;
-    height: 800px;
+    max-width: 1500px;
+    max-height: 800px;
 }
 
 .box2 { 
@@ -62,6 +63,11 @@ body {
     font-size: 1.875rem;
 }
 
+/*** box1 ***/
+.main-logo {
+    min-width: 600px;
+}
+
 /*** box2 ***/
 .box2 .keyword {
     padding-top: 5%;
@@ -74,21 +80,17 @@ body {
 }
 
 .box2 .main-content {
-    position: absolute;
-    padding-top: 8%;
-    margin-left: 22%;
     text-align: center;
+    margin-left: 20%;
 }
 
 .box2 .line-content {
     position: absolute;
-    padding-top: 28%;
-    margin-left: 65%;
+    padding-top: 26%;
 }
 
 .box2 .main-img {
     padding-top: 4%;
-    margin-left: 60%;
     max-width: 40vw;
     max-height: 25vw;
 }
@@ -100,6 +102,18 @@ body {
     max-height: 20vw;
 }
 
+.box2 .contents-container{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.box2 .img-container {
+    display: flex;
+    justify-content: center;
+    margin-left: 20%;
+}
+
 /*** box3 ***/
 .box3 .intro {
     padding-top: 4.5%;
@@ -107,24 +121,12 @@ body {
 }
 
 .box3 .keyword {
+    padding-top: 1%;
     margin-left: 70%;
 }
 
-.box3 .line-content {
-    padding-top: 5%;
-    margin-left: 15%;
-}
-
-.box3 .title-content {
-    position: relative;
-    padding-top: 4%;
-    margin-left: 55%;
-}
-
 .box3 .main-content {
-    position: relative;
-    margin-top: 4%;
-    margin-left: 56.5%;
+    margin-top: 10%;
     list-style-type: square;
 }
 
@@ -132,12 +134,39 @@ body {
     color: #FFD02C;
 }
 
+.box3 .line-content {
+    position: absolute;
+    padding-top: 26%;
+}
+
 .box3 .main-img {
     position: relative;
-    margin-top: -20%;
-    margin-left: 8%;
     max-width: 40vw;
     max-height: 25vw;
+}
+
+.box3 .contents-container {
+    margin-top: 6%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.box3 .img-container {
+    display: flex;
+    justify-content: center;
+}
+
+/*** MediaQuery ***/
+@media screen and (max-width: 856px) {
+    .box2 {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+    .moon-img {
+        display: none;
+    }
 }
 
 @media screen and (max-width: 600px) {
