@@ -143,7 +143,7 @@ h1{
         text-align: center;
     }
     #box1 img{
-        border-radius: 20px;
+        border-radius: 15px;
         width: 300px;
         height: 200px;
     }
@@ -172,7 +172,7 @@ h1{
         height: 210px;
     }
     #box2 img{
-        border-radius: 20px;
+        border-radius: 15px;
         width: 300px;
         height: 200px;
     }
@@ -200,5 +200,84 @@ h1{
 
 /* mobile */
 @media screen and (max-width: 400px){
-    
+    /* page1 */
+    #page1{
+        margin-top: 30px;
+        height: 380px;
+        text-align: center;
+    }
+    #page1 img{
+        width: 200px;
+        height: 250px;
+    }
+    .txt-div{
+        text-align: center;
+        position: absolute;
+        top: 30%;
+    }
+    .txt1{
+        display: block;
+        text-align: center;
+        font-size: 10.5px;
+    }
+    /* page2 */
+    #page2{
+        margin-top: 30px;
+        height: 600px;
+        text-align: center;
+    }
+    /* box1 */
+    #box1{
+        margin-top: 30px;
+        text-align: center;
+    }
+    #box1 img{
+        border-radius: 10px;
+        width: 250px;
+        height: 150px;
+    }
+    .river-div{
+        width: 100%;
+        height: 210px;
+    }
+    #txt2-div{
+        text-align: center;
+    }
+    .txt2{
+        display: block;
+        text-align: center;
+        position: absolute;
+        top: 47%;
+        left: 10%;
+        font-size: 10.5px;
+    }
+    /* box2 */
+    #box2{
+        text-align: center;
+        margin-top: 80px;
+    }
+    .riverbridge-div{
+        width: 100%;
+        height: 210px;
+    }
+    #box2 img{
+        border-radius: 10px;
+        width: 250px;
+        height: 150px;
+    }
+    .txt3-div{
+        text-align: center;
+    }
+    .txt3{
+        display: block;
+        text-align: center;
+        position: absolute;
+        top: 60%;
+        left: 10%;
+        font-size: 10.5px;
+    }
+    /* page3 */
+    .txt4{
+        width: 100%;
+    }
 }
