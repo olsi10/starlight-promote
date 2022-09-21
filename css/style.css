@@ -32,7 +32,7 @@ body {
 
 .box3 { 
     min-height: 1024px;
-    background-color: #6b69d8;
+    background-color: #5a65a2;
     /* background-image: url(/img/main3.png); */
 }
 
@@ -82,8 +82,8 @@ body {
 
 .box2 .line-content {
     position: absolute;
-    padding-top: 40%;
-    margin-left: 55%;
+    padding-top: 28%;
+    margin-left: 65%;
 }
 
 .box2 .main-img {
@@ -94,8 +94,8 @@ body {
 }
 
 .box2 .moon-img {
-    margin-top: -14%;
-    margin-left: 10%;
+    margin-top: -6%;
+    margin-left: 20%;
     max-width: 20vw;
     max-height: 20vw;
 }
@@ -112,12 +112,12 @@ body {
 
 .box3 .line-content {
     padding-top: 5%;
-    margin-left: 18%;
+    margin-left: 15%;
 }
 
 .box3 .title-content {
     position: relative;
-    padding-top: 10%;
+    padding-top: 4%;
     margin-left: 55%;
 }
 
@@ -134,16 +134,10 @@ body {
 
 .box3 .main-img {
     position: relative;
-    margin-top: -22%;
+    margin-top: -20%;
     margin-left: 8%;
     max-width: 40vw;
     max-height: 25vw;
-}
-
-.box3 .bridge-img {
-    position: relative;
-    margin-top: -9%;
-    margin-left: 84.6%;
 }
 
 @media screen and (max-width: 600px) {
