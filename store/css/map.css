@@ -17,10 +17,14 @@ body {
 .main {
     display: block;
     width: 90%;
-    height: 80%;
+    height: 95%;
     margin: 60px auto;
     background-color: #fff;
     justify-content: center;
+}
+
+.period, .col{
+    background-color: #5773B6;
 }
 
 /* MAP / CONTENT DIV */
@@ -61,11 +65,97 @@ body {
     height: 500px;
 }
 
-.store-grid {
-    display: grid;
-    width: 90%;
+/* ** GRID **  */
+
+.slide {
+    /* layout */
+    display: flex;
+    flex-wrap: nowrap;
+    overflow: hidden;
+    position: relative;
+    width: 70%;
     margin: 0 auto;
-    grid-template-columns: 120px repeat(3, 1fr) 100px;
+}
+
+.slide_item {
+    /* layout */
+    width: 80%;
+    display: grid;
+    grid-template-columns: 50px repeat(3, 1fr) 100px;
+    grid-template-rows: 40px repeat(4, 1fr);
+    justify-content: center;
+    position: relative;
+    left: 0px;
+    width: 100%;
+    height: 300px;
+    /* shrink는 컨테이너 크기에 맞게 줄어드는데, 슬라이드 줄어들지 않도록 0을 준다. */
+    flex-shrink: 0;
+    transition: left 0.15s;
+}
+
+/* paging */
+
+.paging {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    gap: 36px;
+}
+
+.slide_button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* 버튼이 중앙에 위치하게 하기위해 계산 */
+    top: calc(50% - 16px);
+    width: 32px;
+    height: 32px;
+    background-color: #cccc;
+    cursor: pointer;
+}
+
+.slide_button:nth-child(1) {
+    /* 반대로 뒤집기 */
+    transform: scaleX(-1);
+}
+
+.slide_button img {
+    width: 20px;
+    height: 20px;
+}
+
+  /* 페이지네이션 스타일 */
+  ul,
+  li {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.slide_pagination {
+    display: flex;
+    gap: 5px;
+}
+
+.slide_pagination > li {
+    /* 현재 슬라이드가 아닌 것은 투명 */
+    color: #FFD02C;
+    cursor: pointer;
+    font-size: 25px;
+
+}
+
+.slide_pagination > li.active {
+    /* 현재 슬라이드 색상은 투명도 없이 */
+    color: #112F6B;
+}
+
+
+  .store-grid {
+    display: grid;
+    width: 70%;
+    margin: 0 auto;
+    grid-template-columns: 50px repeat(3, 1fr) 100px;
     line-height: 2;
     color: #112F6B;
 }
@@ -75,6 +165,60 @@ body {
     justify-content: center;
     align-items: center;
     border: 1px solid #112F6B;
+}
+
+.grid-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #112F6B;
+}
+
+/* page 1 <1 ~ 4>*/
+.grid-item:nth-child(n+26) {
+    display: none;
+}
+/* ------------ */
+
+
+/* page 2 <5 ~ 8>*/
+/* .grid-item:nth-child(n+6):nth-child(-n+25) {
+    display: none;
+}
+
+.grid-item:nth-child(n+46) {
+    display: none;
+} */
+/* ------------- */
+
+/* page 3 <9 ~ 12>*/
+/* .grid-item:nth-child(n+6):nth-child(-n+45) {
+    display: none;
+}
+
+.grid-item:nth-child(n+66) {
+    display: none;
+}  */
+/* --------------------- */
+
+/* page 4 <13 ~ 16> */
+/* .grid-item:nth-child(n+6):nth-child(-n+65) {
+    display: none;
+}
+
+.grid-item:nth-child(n+86) {
+    display: none;
+}  */
+/* --------------------- */
+
+.grid-item:nth-child(5n+0):hover {
+    color: #FFD02C;
+    cursor: pointer;
+}
+
+.grid-item:nth-child(5):hover {
+    color: #112F6B;
+    cursor: auto;
 }
 
 /*** FOOTER ***/
