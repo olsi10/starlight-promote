@@ -52,7 +52,8 @@ ul li:hover> ul {
     background-color: #fff;
     position: fixed;
     top: 0;
-    border-bottom: 2px solid var(--main-color);   
+    border-bottom: 2px solid var(--main-color);  
+    box-shadow: 3px 3px 3px #1a218a24; 
 }
 
 .logo{
