@@ -195,14 +195,14 @@ nav i {
         position: absolute;
         left: 0;
         right: 0; /* = width: 100%; */
-        top: 72px; /* nav 높이 */
+        top: 74px; /* nav 높이 */
         background-color: #fff;
         height: 0; /* overflow: hidden과 함께 메뉴가 안 보이게 함 */
         overflow: hidden;
     }
 
-    #nav-list {
-        margin: 0 auto;
+    .nav > ul {
+        margin: -0px auto;
     }
 
     .nav-item {
@@ -216,7 +216,7 @@ nav i {
     }
 
     .show-menu {
-        height: 160px;
+        height: 300px;
     }
 
     .nav > ul::before {
