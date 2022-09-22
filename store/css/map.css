@@ -258,3 +258,12 @@ footer{
     padding-top: 35px;
     margin-right: 100px;
 }
+
+
+
+/* --------------------------- mobile mobile */
+
+.slide-item {
+    width: 100%;
+    display: contents;
+}
