@@ -165,7 +165,7 @@ nav i {
   transform: translateY(-8px) rotate(-45deg);
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 768px) {
     .header {
         display: block;
     }
