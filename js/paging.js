@@ -18,8 +18,8 @@ let currSlide = 1;
 const pagination = document.querySelector(".slide_pagination");
 
 for (let i = 0; i < maxSlide; i++) {
-  if (i === 0) pagination.innerHTML += `<li class="active">★</li>`;
-  else pagination.innerHTML += `<li class="active">★</li>`;
+  if (i === 0) pagination.innerHTML += `<li class="active"><a href="#map">★</a></li>`;
+  else pagination.innerHTML += `<li class="active"><a href="#map">★</a></li>`;
 }
 
 const paginationItems = document.querySelectorAll(".slide_pagination > li");

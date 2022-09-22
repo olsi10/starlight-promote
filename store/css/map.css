@@ -154,16 +154,19 @@ body {
 
 .slide_pagination > li {
     /* 현재 슬라이드가 아닌 것은 투명 */
-    color: #FFD02C;
-    cursor: pointer;
     font-size: 25px;
 
 }
 
-.slide_pagination > li.active {
+.slide_pagination a {
+    color: #FFD02C;
+    cursor: pointer;
+}
+
+.slide_pagination > li.active a {
     /* 현재 슬라이드 색상은 투명도 없이 */
     color: #112F6B;
-}
+}   
 
 
   .store-grid {
@@ -267,3 +270,6 @@ footer{
     width: 100%;
     display: contents;
 }
+
+
+/* /////////////////// */
