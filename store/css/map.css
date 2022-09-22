@@ -27,7 +27,8 @@ body {
     justify-content: center;
 }
 
-.period, .col{
+.period,
+.col {
     background-color: #FFE09F;
 }
 
@@ -65,10 +66,10 @@ body {
 }
 
 .map-img {
-    object-fit:scale-down;
+    object-fit: scale-down;
     width: 100%;
     height: 500px;
-    cursor : url(../../img/location-cursor.png) 20 30, auto;
+    cursor: url(../../img/location-cursor.png) 20 30, auto;
 }
 
 .hr1 {
@@ -139,9 +140,9 @@ body {
     height: 20px;
 }
 
-  /* 페이지네이션 스타일 */
-  ul,
-  li {
+/* 페이지네이션 스타일 */
+ul,
+li {
     list-style-type: none;
     padding: 0;
     margin: 0;
@@ -152,7 +153,7 @@ body {
     gap: 5px;
 }
 
-.slide_pagination > li {
+.slide_pagination>li {
     /* 현재 슬라이드가 아닌 것은 투명 */
     color: #FFD02C;
     cursor: pointer;
@@ -160,13 +161,13 @@ body {
 
 }
 
-.slide_pagination > li.active {
+.slide_pagination>li.active {
     /* 현재 슬라이드 색상은 투명도 없이 */
     color: #112F6B;
 }
 
 
-  .store-grid {
+.store-grid {
     display: grid;
     width: 70%;
     margin: 0 auto;
@@ -193,6 +194,7 @@ body {
 .grid-item:nth-child(n+26) {
     display: none;
 }
+
 /* ------------ */
 
 
@@ -238,7 +240,7 @@ body {
 
 /*** FOOTER ***/
 
-footer{
+footer {
     width: 100%;
     height: 200px;
     margin-top: 180px;

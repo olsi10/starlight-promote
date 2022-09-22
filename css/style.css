@@ -11,7 +11,7 @@ body {
     background-size: cover;
 }
 
-.box1 { 
+.box1 {
     max-height: 900px;
     min-height: 800px;
     background-image: url(../img/main-background.png);
@@ -25,12 +25,12 @@ body {
     max-height: 800px;
 }
 
-.box2 { 
+.box2 {
     min-height: 600px;
     background-color: #474877;
 }
 
-.box3 { 
+.box3 {
     padding-top: 2vw;
     min-height: 600px;
     padding-bottom: 8vw;
@@ -107,7 +107,7 @@ body {
     margin-left: 15%;
 }
 
-.box2 .contents-container{
+.box2 .contents-container {
     width: 100%;
     display: flex;
     justify-content: space-evenly;
@@ -177,6 +177,7 @@ body {
     .box1 {
         min-height: 600px;
     }
+
     .box2 {
         display: flex;
         justify-content: center;
@@ -208,7 +209,7 @@ body {
         margin-left: 0;
         margin-right: 0;
     }
-    
+
     .box3 {
         display: flex;
         justify-content: center;
@@ -246,11 +247,11 @@ body {
         font-size: 0.8rem;
     }
 
-    .container { 
+    .container {
         height: 250px;
         margin-top: 10px;
     }
-    
+
     #map {
         display: none;
     }
@@ -276,7 +277,7 @@ body {
         box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     }
 
-    .card-image { 
+    .card-image {
         width: 138px;
         height: 128px;
         object-fit: cover;
@@ -285,14 +286,14 @@ body {
 
     .card-title {
         display: flex;
-        justify-content: center; 
+        justify-content: center;
         column-gap: 20px;
         font-size: 13px;
     }
 
     .card-menu {
         font-size: 10px;
-        text-align: center; 
+        text-align: center;
         margin: 0;
         color: #000;
     }
