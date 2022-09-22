@@ -5,6 +5,7 @@
 
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -17,47 +18,58 @@
 
     <title>store</title>
 </head>
+
 <body>
     <!-- 내비게이션 바 -->
-    <div class="header">
-        <div class="logo">
-          <a href="../index.html">
-            <img src="../img/logo.png" alt="" class="logo">
-          </a>
-          </div>
+    <div class="header" id="nav">
+        <div class="mobile-header-container">
+            <div class="logo">
+                <a href="#">
+                    <img src="../img/logo.png" alt="" class="logo">
+                </a>
+            </div>
+            <div class="nav-toggle" id="nav-toggle">
+                <i id="menu-icon">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </i>
+            </div>
+        </div>
         <div class="nav">
-            <ul>
-                <li class ="active"><a href="#">별빛 신사리</a>
-                    <ul class ="sub-nav">
+            <ul class="nav-list" id="nav-list">
+                <li class="active"><a href="#">별빛 신사리</a>
+                    <ul class="sub-nav">
                         <li><a href="../history/index.html">개요</a></li>
                     </ul>
                 </li>
-                
                 <li><a href="#">점포 소개</a>
-                    <ul class ="sub-nav">
+                    <ul class="sub-nav">
                         <li><a href="../store/map/index.html">점포 위치</a></li>
+                        <li><a href="../content/index.html">점포 관련 콘텐츠</a></li>
                     </ul>
                 </li>
-                
+
                 <li><a href="#">소식</a>
-                    <ul class ="sub-nav">
-                        <li><a href="../start-newpaper.html">별빛 신사리 기사</a></li>
-                        <li><a href="../star-video.html">별빛 신사리 소식</a></li>
-                        <li><a href="../start-promotion.html">별빛 신사리 홍보 콘텐츠</a></li>
-                    </ul></li>
-                </ul>
-        </div> 
-      </div>
-      
-     <!-- MAIN -->
+                    <ul class="sub-nav">
+                        <li><a href="#">별빛 신사리 기사</a></li>
+                        <li><a href="#">별빛 신사리 영상</a></li>
+                        <li><a href="#">별빛 신사리 홍보 콘텐츠</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- MAIN -->
     <div class="container">
         <div class="main">
             <div id="page1">
                 <img src="/img/beaf9282.png" alt="고기9282">
                 <p class="txt1">
-                    이곳은<br/>
-                    신사리에서<br/>
-                    하나밖에 없는<br/>
+                    이곳은<br />
+                    신사리에서<br />
+                    하나밖에 없는<br />
                     방앗간!
                 </p>
             </div>
@@ -166,7 +178,7 @@
                     </div>
                     <div class="column-item">
                         <div class="right">
-                            원조가 왜 원조인지 알 수 있는 방앗간인 것 같아요!!<br/>
+                            원조가 왜 원조인지 알 수 있는 방앗간인 것 같아요!!<br />
                             사장님이 너무 친절하시고 정말 좋아여~
                         </div>
                     </div>
@@ -177,20 +189,22 @@
 
     <footer>
         <div class="footer-container">
-          <div class="col-box1">
-            <img src="../img/logo.png" alt="">
-          </div>
-          <div class="col-box2">
-            <span class="footer-ic"><i class='bx bxl-instagram'></i></span>
-            <span class="footer-ic"><i class='bx bxl-facebook' ></i></span>
-            <span class="footer-ic"><i class='bx bxl-twitter' ></i></span>
-            <br />
-            <br />
-            <div class="footer-content">신원시장, 서원동 상점가, 관악 종합 시장</div>
-            <br />
-            <div class="footer-content">Copyright © StartLightSillimStreet  All Rights Reseved.</div>
-          </div>
+            <div class="col-box1">
+                <img src="../img/logo.png" alt="">
+            </div>
+            <div class="col-box2">
+                <span class="footer-ic"><i class='bx bxl-instagram'></i></span>
+                <span class="footer-ic"><i class='bx bxl-facebook'></i></span>
+                <span class="footer-ic"><i class='bx bxl-twitter'></i></span>
+                <br />
+                <br />
+                <div class="footer-content">신원시장, 서원동 상점가, 관악 종합 시장</div>
+                <br />
+                <div class="footer-content">Copyright © StartLightSillimStreet All Rights Reseved.</div>
+            </div>
         </div>
     </footer>
+    <script src="./js/nav.js"></script>
 </body>
+
 </html>

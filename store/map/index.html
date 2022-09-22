@@ -2,6 +2,7 @@
 
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -14,36 +15,47 @@
 
     <title>별빛 신사리</title>
 </head>
+
 <body>
     <!-- 내비게이션 바 -->
-    <div class="header">
-      <div class="logo">
-        <a href="../../index.html">
-          <img src="../../img/logo.png" alt="" class="logo">
-        </a>
+    <div class="header" id="nav">
+        <div class="mobile-header-container">
+            <div class="logo">
+                <a href="#">
+                    <img src="../../img/logo.png" alt="" class="logo">
+                </a>
+            </div>
+            <div class="nav-toggle" id="nav-toggle">
+                <i id="menu-icon">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </i>
+            </div>
         </div>
-      <div class="nav">
-          <ul>
-              <li class ="active"><a href="#">별빛 신사리</a>
-                  <ul class ="sub-nav">
-                      <li><a href="../../history/index.html">개요</a></li>
-                  </ul>
-              </li>
-              
-              <li><a href="#">점포 소개</a>
-                  <ul class ="sub-nav">
-                      <li><a href="#">점포 위치</a></li>
-                  </ul>
-              </li>
-              
-              <li><a href="#">소식</a>
-                  <ul class ="sub-nav">
-                      <li><a href="../../content/start-newpaper.html">별빛 신사리 기사</a></li>
-                      <li><a href="../../content/star-video.html">별빛 신사리 소식</a></li>
-                      <li><a href="../../content/start-promotion.html">별빛 신사리 홍보 콘텐츠</a></li>
-                  </ul></li>
-              </ul>
-      </div> 
+        <div class="nav">
+            <ul class="nav-list" id="nav-list">
+                <li class="active"><a href="#">별빛 신사리</a>
+                    <ul class="sub-nav">
+                        <li><a href="../../history/index.html">개요</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">점포 소개</a>
+                    <ul class="sub-nav">
+                        <li><a href="../../store/map/index.html">점포 위치</a></li>
+                        <li><a href="../../content/index.html">점포 관련 콘텐츠</a></li>
+                    </ul>
+                </li>
+
+                <li><a href="#">소식</a>
+                    <ul class="sub-nav">
+                        <li><a href="#">별빛 신사리 기사</a></li>
+                        <li><a href="#">별빛 신사리 영상</a></li>
+                        <li><a href="#">별빛 신사리 홍보 콘텐츠</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
     </div>
 
     <!-- MAIN -->
@@ -63,136 +75,136 @@
 
             <div id="slide" class="slide slide_wrap">
                 <div class="slide_item">
-                  <div class="grid-item"></div>
-                  <div class="grid-item col">점포명</div>
-                  <div class="grid-item col">전화번호</div>
-                  <div class="grid-item col">주소</div>
-                  <div class="grid-item col">홍보 페이지</div>
-          
-                  <div class="grid-item period index">1</div>
-                  <div class="grid-item title">고기9282</div>
-                  <div class="grid-item number">010-2858-9282</div>
-                  <div class="grid-item address">서울특별시 관악구 남부순환로 1588, 2층 (신림동)</div>
-                  <div class="grid-item go">바로가기</div>
-          
-                  <div class="grid-item period index">2</div>
-                  <div class="grid-item title">마티스커피</div>
-                  <div class="grid-item number">02-884-6321</div>
-                  <div class="grid-item address">서울특별시 관악구 신림동 1638-5</div>
-                  <div class="grid-item go">바로가기</div>
-          
-                  <div class="grid-item period index">3</div>
-                  <div class="grid-item title">불꽃닭강정</div>
-                  <div class="grid-item number">0507-1394-0780</div>
-                  <div class="grid-item address">서울 관악구 관천로 39 1층 불꽃닭강정</div>
-                  <div class="grid-item go">바로가기</div>
-          
-                  <div class="grid-item period index">4</div>
-                  <div class="grid-item title">소문난순대국</div>
-                  <div class="grid-item number">02-856-0903</div>
-                  <div class="grid-item address">서울특별시 관악구 관천로 19 1층 (신림동)</div>
-                  <div class="grid-item go">바로가기</div>
+                    <div class="grid-item"></div>
+                    <div class="grid-item col">점포명</div>
+                    <div class="grid-item col">전화번호</div>
+                    <div class="grid-item col">주소</div>
+                    <div class="grid-item col">홍보 페이지</div>
+
+                    <div class="grid-item period index">1</div>
+                    <div class="grid-item title">고기9282</div>
+                    <div class="grid-item number">010-2858-9282</div>
+                    <div class="grid-item address">서울특별시 관악구 남부순환로 1588, 2층 (신림동)</div>
+                    <div class="grid-item go">바로가기</div>
+
+                    <div class="grid-item period index">2</div>
+                    <div class="grid-item title">마티스커피</div>
+                    <div class="grid-item number">02-884-6321</div>
+                    <div class="grid-item address">서울특별시 관악구 신림동 1638-5</div>
+                    <div class="grid-item go">바로가기</div>
+
+                    <div class="grid-item period index">3</div>
+                    <div class="grid-item title">불꽃닭강정</div>
+                    <div class="grid-item number">0507-1394-0780</div>
+                    <div class="grid-item address">서울 관악구 관천로 39 1층 불꽃닭강정</div>
+                    <div class="grid-item go">바로가기</div>
+
+                    <div class="grid-item period index">4</div>
+                    <div class="grid-item title">소문난순대국</div>
+                    <div class="grid-item number">02-856-0903</div>
+                    <div class="grid-item address">서울특별시 관악구 관천로 19 1층 (신림동)</div>
+                    <div class="grid-item go">바로가기</div>
                 </div>
-          
+
                 <div class="slide_item">
-                  <div class="grid-item"></div>
-                  <div class="grid-item col">점포명</div>
-                  <div class="grid-item col">전화번호</div>
-                  <div class="grid-item col">주소</div>
-                  <div class="grid-item col">홍보 페이지</div>
-          
-                  <div class="grid-item period index">5</div>
-                  <div class="grid-item title">순대타운 미자네</div>
-                  <div class="grid-item number">02-884-5065</div>
-                  <div class="grid-item address">서울특별시 관악구 서원동 1640-31 3F</div>
-                  <div class="grid-item go">바로가기</div>
-          
-                  <div class="grid-item period">6</div>
-                  <div class="grid-item">스내지스토어</div>
-                  <div class="grid-item">0507-1462-5662</div>
-                  <div class="grid-item">서울 관악구 신림로 303 1층</div>
-                  <div class="grid-item">바로가기</div>
-          
-                  <div class="grid-item period">7</div>
-                  <div class="grid-item">신림기름고추집</div>
-                  <div class="grid-item">0507-1378-4510</div>
-                  <div class="grid-item">서울 관악구 신원로5길 35 신원시장 B-23호 신림기름집</div>
-                  <div class="grid-item">바로가기</div>
-          
-                  <div class="grid-item period">8</div>
-                  <div class="grid-item">신사리 즉석 떡볶이</div>
-                  <div class="grid-item">02-878-9288</div>
-                  <div class="grid-item"> 서울특별시 관악구 남부순환로176길 20 3층 (신림동)</div>
-                  <div class="grid-item">바로가기</div>
+                    <div class="grid-item"></div>
+                    <div class="grid-item col">점포명</div>
+                    <div class="grid-item col">전화번호</div>
+                    <div class="grid-item col">주소</div>
+                    <div class="grid-item col">홍보 페이지</div>
+
+                    <div class="grid-item period index">5</div>
+                    <div class="grid-item title">순대타운 미자네</div>
+                    <div class="grid-item number">02-884-5065</div>
+                    <div class="grid-item address">서울특별시 관악구 서원동 1640-31 3F</div>
+                    <div class="grid-item go">바로가기</div>
+
+                    <div class="grid-item period">6</div>
+                    <div class="grid-item">스내지스토어</div>
+                    <div class="grid-item">0507-1462-5662</div>
+                    <div class="grid-item">서울 관악구 신림로 303 1층</div>
+                    <div class="grid-item">바로가기</div>
+
+                    <div class="grid-item period">7</div>
+                    <div class="grid-item">신림기름고추집</div>
+                    <div class="grid-item">0507-1378-4510</div>
+                    <div class="grid-item">서울 관악구 신원로5길 35 신원시장 B-23호 신림기름집</div>
+                    <div class="grid-item">바로가기</div>
+
+                    <div class="grid-item period">8</div>
+                    <div class="grid-item">신사리 즉석 떡볶이</div>
+                    <div class="grid-item">02-878-9288</div>
+                    <div class="grid-item"> 서울특별시 관악구 남부순환로176길 20 3층 (신림동)</div>
+                    <div class="grid-item">바로가기</div>
                 </div>
-          
-          
+
+
                 <div class="slide_item">
-                  <div class="grid-item"></div>
-                  <div class="grid-item col">점포명</div>
-                  <div class="grid-item col">전화번호</div>
-                  <div class="grid-item col">주소</div>
-                  <div class="grid-item col">홍보 페이지</div>
-              
-                  <div class="grid-item period">9</div>
-                  <div class="grid-item">오떡순</div>
-                  <div class="grid-item">02-6083-7600</div>
-                  <div class="grid-item">서울특별시 관악구 신원로5길 25</div>
-                  <div class="grid-item">바로가기</div>
-          
-                  <div class="grid-item period">10</div>
-                  <div class="grid-item">원조홍어</div>
-                  <div class="grid-item">02-884-0487</div>
-                  <div class="grid-item">서울특별시 관악구 신원로5길 13 1층 1호 (신림동)</div>
-                  <div class="grid-item">바로가기</div>
-          
-                  <div class="grid-item period">11</div>
-                  <div class="grid-item">으뜸50안경 신림3호점</div>
-                  <div class="grid-item">02-888-8022</div>
-                  <div class="grid-item">서울특별시 관악구 남부순환로 1594 (신림동)</div>
-                  <div class="grid-item">바로가기</div>
-          
-                  <div class="grid-item period">12</div>
-                  <div class="grid-item">이모네전칼국수</div>
-                  <div class="grid-item">010-8770-3044</div>
-                  <div class="grid-item">서울 관악구 관천로 27-1, 1층 (신림동)</div>
-                  <div class="grid-item">바로가기</div>
+                    <div class="grid-item"></div>
+                    <div class="grid-item col">점포명</div>
+                    <div class="grid-item col">전화번호</div>
+                    <div class="grid-item col">주소</div>
+                    <div class="grid-item col">홍보 페이지</div>
+
+                    <div class="grid-item period">9</div>
+                    <div class="grid-item">오떡순</div>
+                    <div class="grid-item">02-6083-7600</div>
+                    <div class="grid-item">서울특별시 관악구 신원로5길 25</div>
+                    <div class="grid-item">바로가기</div>
+
+                    <div class="grid-item period">10</div>
+                    <div class="grid-item">원조홍어</div>
+                    <div class="grid-item">02-884-0487</div>
+                    <div class="grid-item">서울특별시 관악구 신원로5길 13 1층 1호 (신림동)</div>
+                    <div class="grid-item">바로가기</div>
+
+                    <div class="grid-item period">11</div>
+                    <div class="grid-item">으뜸50안경 신림3호점</div>
+                    <div class="grid-item">02-888-8022</div>
+                    <div class="grid-item">서울특별시 관악구 남부순환로 1594 (신림동)</div>
+                    <div class="grid-item">바로가기</div>
+
+                    <div class="grid-item period">12</div>
+                    <div class="grid-item">이모네전칼국수</div>
+                    <div class="grid-item">010-8770-3044</div>
+                    <div class="grid-item">서울 관악구 관천로 27-1, 1층 (신림동)</div>
+                    <div class="grid-item">바로가기</div>
                 </div>
-          
+
                 <div class="slide_item">
-                  <div class="grid-item"></div>
-                  <div class="grid-item col">점포명</div>
-                  <div class="grid-item col">전화번호</div>
-                  <div class="grid-item col">주소</div>
-                  <div class="grid-item col">홍보 페이지</div>
-          
-                  <div class="grid-item period">13</div>
-                  <div class="grid-item">진격의곱창</div>
-                  <div class="grid-item">02-830-3658</div>
-                  <div class="grid-item">서울특별시 관악구 관천로 37-1 1층</div>
-                  <div class="grid-item">바로가기</div>
-          
-                  <div class="grid-item period">14</div>
-                  <div class="grid-item">킴스해물로스</div>
-                  <div class="grid-item">02-889-8485</div>
-                  <div class="grid-item">서울특별시 관악구 신림로 309, 2층 (신림동)</div>
-                  <div class="grid-item">바로가기</div>
-                  
-                  <div class="grid-item period">15</div>
-                  <div class="grid-item">킹콩부대찌개 신림역점</div>
-                  <div class="grid-item">02-877-8046</div>
-                  <div class="grid-item">서울특별시 관악구 신림동 1638-9 2층</div>
-                  <div class="grid-item">바로가기</div>
-          
-                  <div class="grid-item period">16</div>
-                  <div class="grid-item">통큰시장탕수육</div>
-                  <div class="grid-item">02-866-3995</div>
-                  <div class="grid-item">서울특별시 관악구 관천로 19 (신림동)</div>
-                  <div class="grid-item">바로가기</div>
-              </div>
-          
+                    <div class="grid-item"></div>
+                    <div class="grid-item col">점포명</div>
+                    <div class="grid-item col">전화번호</div>
+                    <div class="grid-item col">주소</div>
+                    <div class="grid-item col">홍보 페이지</div>
+
+                    <div class="grid-item period">13</div>
+                    <div class="grid-item">진격의곱창</div>
+                    <div class="grid-item">02-830-3658</div>
+                    <div class="grid-item">서울특별시 관악구 관천로 37-1 1층</div>
+                    <div class="grid-item">바로가기</div>
+
+                    <div class="grid-item period">14</div>
+                    <div class="grid-item">킴스해물로스</div>
+                    <div class="grid-item">02-889-8485</div>
+                    <div class="grid-item">서울특별시 관악구 신림로 309, 2층 (신림동)</div>
+                    <div class="grid-item">바로가기</div>
+
+                    <div class="grid-item period">15</div>
+                    <div class="grid-item">킹콩부대찌개 신림역점</div>
+                    <div class="grid-item">02-877-8046</div>
+                    <div class="grid-item">서울특별시 관악구 신림동 1638-9 2층</div>
+                    <div class="grid-item">바로가기</div>
+
+                    <div class="grid-item period">16</div>
+                    <div class="grid-item">통큰시장탕수육</div>
+                    <div class="grid-item">02-866-3995</div>
+                    <div class="grid-item">서울특별시 관악구 관천로 19 (신림동)</div>
+                    <div class="grid-item">바로가기</div>
+                </div>
+
             </div>
-<!-- 
+            <!-- 
              <div id="slide" class="slide slide_wrap">
                 <div class="slide_item">
                   <div class="grid-item"></div>
@@ -202,228 +214,230 @@
                   <div class="grid-item col">홍보 페이지</div> -->
 
             <main id="main-card">
-              <div class="slide-item">
-               <article class="card">
-                  <img class="card-image" src="../../img/map-moblie/9282.jfif" />
-                  <div class="card-description">
-                    <div class="card-title">
-                        고기9282
-                    </div>
-                    <p class="card-menu">
-                        신림역 맛집! 부드러운 고기와 고기냉면이 입에서 사르르~
-                    </p>
-                  </div>
-                </article>
-                <article class="card">
-                  <img class="card-image" src="../../img/map-moblie/matys.jfif"/>
-                  <div class="card-description">
-                        <div class="card-title">
-                            마티스커피
+                <div class="slide-item">
+                    <article class="card">
+                        <img class="card-image" src="../../img/map-moblie/9282.jfif" />
+                        <div class="card-description">
+                            <div class="card-title">
+                                고기9282
+                            </div>
+                            <p class="card-menu">
+                                신림역 맛집! 부드러운 고기와 고기냉면이 입에서 사르르~
+                            </p>
                         </div>
-                        <p class="card-menu">
-                            인스타 감성 분위기 카페, 커피는 물론 디저트도 일품!
-                        </p>
-                  </div>
-                </article>
-                <article class="card">
-                  <img class="card-image" src="../../img/map-moblie/chicken.jfif"/>
-                  <div class="card-description">
-                    <div class="card-title">
-                        불꽃닭강정
-                    </div>
-                    <p class="card-menu">
-                        한 입 먹고 아드레날린 팡팡 터지는 '불꽃닭강정', 사장님이 엄청 친절한 곳!
-                    </p>  
-                  </div>
-                </article>
-                <article class="card">
-                    <img class="card-image" src="../../img/map-moblie/sundae.jfif"/>
-                    <div class="card-description">
-                      <div class="card-title">
-                          소문난 순대국
-                      </div>
-                      <p class="card-menu">
-                          신림에서 소문난 맛집. 직접 담근 김치를 사용해서 더욱 정성스러운 순대국!
-                      </p>  
-                    </div>
-                  </article>
-                  <article class="card">
-                    <img class="card-image" src="../../img/map-moblie/sundae-mija.jfif"/>
-                    <div class="card-description">
-                      <div class="card-title">
-                          순대타운 미자네
-                      </div>
-                      <p class="card-menu">
-                          순대를 제대로 즐기려면 미자네로! 알찬 구성품으로 순대의 진가를 보여준다.
-                      </p>  
-                    </div>
-                  </article>
-                  <article class="card">
-                    <img class="card-image" src="../../img/map-moblie/snazzy.jfif"/>
-                    <div class="card-description">
-                      <div class="card-title">
-                          스내지스토어
-                      </div>
-                      <p class="card-menu">
-                          신림 최고봉 옷가게 유니섹스로 남녀노소 홍대피플이 될 수 있다.
-                      </p>  
-                    </div>
-                  </article>
+                    </article>
+                    <article class="card">
+                        <img class="card-image" src="../../img/map-moblie/matys.jfif" />
+                        <div class="card-description">
+                            <div class="card-title">
+                                마티스커피
+                            </div>
+                            <p class="card-menu">
+                                인스타 감성 분위기 카페, 커피는 물론 디저트도 일품!
+                            </p>
+                        </div>
+                    </article>
+                    <article class="card">
+                        <img class="card-image" src="../../img/map-moblie/chicken.jfif" />
+                        <div class="card-description">
+                            <div class="card-title">
+                                불꽃닭강정
+                            </div>
+                            <p class="card-menu">
+                                한 입 먹고 아드레날린 팡팡 터지는 '불꽃닭강정', 사장님이 엄청 친절한 곳!
+                            </p>
+                        </div>
+                    </article>
+                    <article class="card">
+                        <img class="card-image" src="../../img/map-moblie/sundae.jfif" />
+                        <div class="card-description">
+                            <div class="card-title">
+                                소문난 순대국
+                            </div>
+                            <p class="card-menu">
+                                신림에서 소문난 맛집. 직접 담근 김치를 사용해서 더욱 정성스러운 순대국!
+                            </p>
+                        </div>
+                    </article>
+                    <article class="card">
+                        <img class="card-image" src="../../img/map-moblie/sundae-mija.jfif" />
+                        <div class="card-description">
+                            <div class="card-title">
+                                순대타운 미자네
+                            </div>
+                            <p class="card-menu">
+                                순대를 제대로 즐기려면 미자네로! 알찬 구성품으로 순대의 진가를 보여준다.
+                            </p>
+                        </div>
+                    </article>
+                    <article class="card">
+                        <img class="card-image" src="../../img/map-moblie/snazzy.jfif" />
+                        <div class="card-description">
+                            <div class="card-title">
+                                스내지스토어
+                            </div>
+                            <p class="card-menu">
+                                신림 최고봉 옷가게 유니섹스로 남녀노소 홍대피플이 될 수 있다.
+                            </p>
+                        </div>
+                    </article>
 
-                  <article class="card">
-                    <img class="card-image" src="../../img/map-moblie/oil.jfif"/>
-                    <div class="card-description">
-                      <div class="card-title">
-                          신림기름고추집
-                      </div>
-                      <p class="card-menu">
-                        40년이 넘는 전통으로 3대째 이어져 내려오는 방앗간! 최고의 품질만을 고집한다.
-                      </p>  
-                    </div>
-                  </article>
-
-
-                  <article class="card">
-                    <img class="card-image" src="../../img/map-moblie/ddeokbokki.jfif"/>
-                    <div class="card-description">
-                      <div class="card-title">
-                          신림 즉석 떡볶이
-                      </div>
-                      <p class="card-menu">
-                          떡볶이 맵기 조절을 할 수 있어서 편리하다. 2030들이 자주 찾는 추억의 공간!
-                      </p>  
-                    </div>
-                  </article>
-                  <article class="card">
-                    <img class="card-image" src="../../img/map-moblie/oddeksun.jfif"/>
-                    <div class="card-description">
-                      <div class="card-title">
-                          오떡순
-                      </div>
-                      <p class="card-menu">
-                        신원시장 깨끗한 7대 식당으로 꼽혔다. 깨끗한 기름으로 즉석 튀겨서 튀김이 색이 맑다!                      
-                      </p>  
-                    </div>
-                  </article>
+                    <article class="card">
+                        <img class="card-image" src="../../img/map-moblie/oil.jfif" />
+                        <div class="card-description">
+                            <div class="card-title">
+                                신림기름고추집
+                            </div>
+                            <p class="card-menu">
+                                40년이 넘는 전통으로 3대째 이어져 내려오는 방앗간! 최고의 품질만을 고집한다.
+                            </p>
+                        </div>
+                    </article>
 
 
-                  <article class="card">
-                    <img class="card-image" src="../../img/map-moblie/hong-a.jfif"/>
-                    <div class="card-description">
-                      <div class="card-title">
-                          원조홍어
-                      </div>
-                      <p class="card-menu">
-                        홍어무침, 홍어찜으로 간단하게 한잔하기 좋다. 사장님이 플레이팅 장인.
-                      </p>  
-                    </div>
-                  </article>
-
-                  <article class="card">
-                    <img class="card-image" src="../../img/map-moblie/eddum.jfif"/>
-                    <div class="card-description">
-                      <div class="card-title">
-                          으뜸50안경 신림3호점
-                      </div>
-                      <p class="card-menu">
-                        국내에서 직접 제작하고 가격 저렴하다! 안경 구매는 으뜸50안경! 
-                      </p>  
-                    </div>
-                  </article>
-
-                  <article class="card">
-                    <img class="card-image" src="../../img/map-moblie/e-mo.jfif"/>
-                    <div class="card-description">
-                      <div class="card-title">
-                          이모네전칼국수
-                      </div>
-                      <p class="card-menu">
-                        가격이 저렴하고 양도 푸짐하고 맛이 천상의 맛. 전칼국수계 으뜸!
-                      </p>  
-                    </div>
-                  </article>
-
-                  <article class="card">
-                    <img class="card-image" src="../../img/map-moblie/gob-chang.jfif"/>
-                    <div class="card-description">
-                      <div class="card-title">
-                          진격의 곱창
-                      </div>
-                      <p class="card-menu">
-                        양 넉넉하고 잡내가 없다! 1인분도 주문가능하다. 사장님이 매우매우 친절!
-                      </p>  
-                    </div>
-                  </article>
-
-                  <article class="card">
-                    <img class="card-image" src="../../img/map-moblie/kims.jfif"/>
-                    <div class="card-description">
-                      <div class="card-title">
-                          킴스해물로스
-                      </div>
-                      <p class="card-menu">
-                        양 넉넉하고 잡내가 없다! 1인분도 주문가능하다. 사장님이 매우매우 친절!
-                      </p>  
-                    </div>
-                  </article>
-
-                  <article class="card">
-                    <img class="card-image" src="../../img/map-moblie/king-kong.jfif"/>
-                    <div class="card-description">
-                      <div class="card-title">
-                          킹콩부대찌개 신림역점
-                      </div>
-                      <p class="card-menu">
-                        양 넉넉하고 잡내가 없다! 1인분도 주문가능하다. 사장님이 매우매우 친절!
-                      </p>  
-                    </div>
-                  </article>
+                    <article class="card">
+                        <img class="card-image" src="../../img/map-moblie/ddeokbokki.jfif" />
+                        <div class="card-description">
+                            <div class="card-title">
+                                신림 즉석 떡볶이
+                            </div>
+                            <p class="card-menu">
+                                떡볶이 맵기 조절을 할 수 있어서 편리하다. 2030들이 자주 찾는 추억의 공간!
+                            </p>
+                        </div>
+                    </article>
+                    <article class="card">
+                        <img class="card-image" src="../../img/map-moblie/oddeksun.jfif" />
+                        <div class="card-description">
+                            <div class="card-title">
+                                오떡순
+                            </div>
+                            <p class="card-menu">
+                                신원시장 깨끗한 7대 식당으로 꼽혔다. 깨끗한 기름으로 즉석 튀겨서 튀김이 색이 맑다!
+                            </p>
+                        </div>
+                    </article>
 
 
-                  <article class="card">
-                    <img class="card-image" src="../../img/map-moblie/tang.jfif"/>
-                    <div class="card-description">
-                      <div class="card-title">
-                        통큰 시장 탕수육
-                      </div>
-                      <p class="card-menu">
-                        양 넉넉하고 잡내가 없다! 1인분도 주문가능하다. 사장님이 매우매우 친절!
-                      </p>  
-                    </div>
-                  </article>
+                    <article class="card">
+                        <img class="card-image" src="../../img/map-moblie/hong-a.jfif" />
+                        <div class="card-description">
+                            <div class="card-title">
+                                원조홍어
+                            </div>
+                            <p class="card-menu">
+                                홍어무침, 홍어찜으로 간단하게 한잔하기 좋다. 사장님이 플레이팅 장인.
+                            </p>
+                        </div>
+                    </article>
+
+                    <article class="card">
+                        <img class="card-image" src="../../img/map-moblie/eddum.jfif" />
+                        <div class="card-description">
+                            <div class="card-title">
+                                으뜸50안경 신림3호점
+                            </div>
+                            <p class="card-menu">
+                                국내에서 직접 제작하고 가격 저렴하다! 안경 구매는 으뜸50안경!
+                            </p>
+                        </div>
+                    </article>
+
+                    <article class="card">
+                        <img class="card-image" src="../../img/map-moblie/e-mo.jfif" />
+                        <div class="card-description">
+                            <div class="card-title">
+                                이모네전칼국수
+                            </div>
+                            <p class="card-menu">
+                                가격이 저렴하고 양도 푸짐하고 맛이 천상의 맛. 전칼국수계 으뜸!
+                            </p>
+                        </div>
+                    </article>
+
+                    <article class="card">
+                        <img class="card-image" src="../../img/map-moblie/gob-chang.jfif" />
+                        <div class="card-description">
+                            <div class="card-title">
+                                진격의 곱창
+                            </div>
+                            <p class="card-menu">
+                                양 넉넉하고 잡내가 없다! 1인분도 주문가능하다. 사장님이 매우매우 친절!
+                            </p>
+                        </div>
+                    </article>
+
+                    <article class="card">
+                        <img class="card-image" src="../../img/map-moblie/kims.jfif" />
+                        <div class="card-description">
+                            <div class="card-title">
+                                킴스해물로스
+                            </div>
+                            <p class="card-menu">
+                                양 넉넉하고 잡내가 없다! 1인분도 주문가능하다. 사장님이 매우매우 친절!
+                            </p>
+                        </div>
+                    </article>
+
+                    <article class="card">
+                        <img class="card-image" src="../../img/map-moblie/king-kong.jfif" />
+                        <div class="card-description">
+                            <div class="card-title">
+                                킹콩부대찌개 신림역점
+                            </div>
+                            <p class="card-menu">
+                                양 넉넉하고 잡내가 없다! 1인분도 주문가능하다. 사장님이 매우매우 친절!
+                            </p>
+                        </div>
+                    </article>
+
+
+                    <article class="card">
+                        <img class="card-image" src="../../img/map-moblie/tang.jfif" />
+                        <div class="card-description">
+                            <div class="card-title">
+                                통큰 시장 탕수육
+                            </div>
+                            <p class="card-menu">
+                                양 넉넉하고 잡내가 없다! 1인분도 주문가능하다. 사장님이 매우매우 친절!
+                            </p>
+                        </div>
+                    </article>
                 </div>
-              </main>
-            
+            </main>
+
             <div class="paging">
                 <div class="slide_prev_button slide_button"><img src="../../img/next.png" alt=""></div>
                 <ul class="slide_pagination"></ul>
                 <div class="slide_next_button slide_button"><img src="../../img/next.png" alt=""></div>
             </div>
-        
+
         </div>
 
     </div>
-</div>
+    </div>
 
     <footer>
         <div class="footer-container">
-          <div class="col-box1">
-            <img src="../..//img/logo.png" alt="">
-          </div>
-          <div class="col-box2">
-            <span class="footer-ic"><i class='bx bxl-instagram'></i></span>
-            <span class="footer-ic"><i class='bx bxl-facebook' ></i></span>
-            <span class="footer-ic"><i class='bx bxl-twitter' ></i></span>
-            <br />
-            <br />
-            <div class="footer-content">신원시장, 서원동 상점가, 관악 종합 시장</div>
-            <br />
-            <div class="footer-content">Copyright © StartLightSillimStreet  All Rights Reseved.</div>
-          </div>
+            <div class="col-box1">
+                <img src="../..//img/logo.png" alt="">
+            </div>
+            <div class="col-box2">
+                <span class="footer-ic"><i class='bx bxl-instagram'></i></span>
+                <span class="footer-ic"><i class='bx bxl-facebook'></i></span>
+                <span class="footer-ic"><i class='bx bxl-twitter'></i></span>
+                <br />
+                <br />
+                <div class="footer-content">신원시장, 서원동 상점가, 관악 종합 시장</div>
+                <br />
+                <div class="footer-content">Copyright © StartLightSillimStreet All Rights Reseved.</div>
+            </div>
         </div>
     </footer>
 
     <script src="../../js/paging.js"></script>
     <script src="../../js/mobile-paging.js"></script>
+    <script src="./js/nav.js"></script>
 </body>
+
 </html>
