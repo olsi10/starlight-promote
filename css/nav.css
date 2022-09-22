@@ -67,6 +67,35 @@ ul li:hover> ul {
     width: 600px;
 }
 
+.nav-toggle {
+    display: none; /* visibility: hidden; 보이지 않지만, 자리는 차지함 */
+}
+
+.nav-toggle i {
+    color: var(--main-color);
+    font-size: 3rem; /* 아이콘 1.25배 */
+}
+
+nav i {
+    color: var(--main-color);
+}
+
+.bar{
+    width: 25px;
+    height: 3px;
+    background-color: var(--main-color);
+    margin: 5px auto;
+    -webkit-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+
+.nav-toggle {
+    justify-self: end;
+    margin-right: 25px;
+    display: none;
+}
+
 .nav > ul{
     font-size: 20px;
     display: flex;
@@ -95,7 +124,7 @@ ul li:hover> ul {
     display: block;
     line-height: 3;
     text-align: center;
-    color: var(--main-colorr);
+    color: var(--main-color);
 }
 
 .sub-nav li > a:hover {
@@ -116,4 +145,90 @@ ul li:hover> ul {
 
 .nav > ul > li > a:hover {
     color: #FFD02C;
+}
+
+#nav-toggle .is-active .bar:nth-child(2){
+    opacity: 0;
+}
+
+#nav-toggle .is-active .bar:nth-child(1){
+  -webkit-transform: translateY(8px) rotate(45deg);
+  -ms-transform: translateY(8px) rotate(45deg);
+  -o-transform: translateY(8px) rotate(45deg);
+  transform: translateY(8px) rotate(45deg);
+}
+
+#nav-toggle .is-active .bar:nth-child(3){
+  -webkit-transform: translateY(-8px) rotate(-45deg);
+  -ms-transform: translateY(-8px) rotate(-45deg);
+  -o-transform: translateY(-8px) rotate(-45deg);
+  transform: translateY(-8px) rotate(-45deg);
+}
+
+@media screen and (max-width: 600px) {
+    .header {
+        display: block;
+    }
+    
+    .mobile-header-container {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .nav-toggle, .bar{
+        display: block;
+        cursor: pointer;
+    }
+
+    .nav-logo {
+        margin: 0 auto; /* 가운데 정렬 */
+    }
+    
+    .bxs-x-square {
+        transform: translate(0%)!important;
+    }
+
+    .nav-list {
+        flex-direction: column;
+        position: absolute;
+        left: 0;
+        right: 0; /* = width: 100%; */
+        top: 72px; /* nav 높이 */
+        background-color: #fff;
+        height: 0; /* overflow: hidden과 함께 메뉴가 안 보이게 함 */
+        overflow: hidden;
+    }
+
+    #nav-list {
+        margin: 0 auto;
+    }
+
+    .nav-item {
+        padding: 0.5rem 0;
+        border-bottom: 1px solid #fff;
+        text-align: center; /* 글자 가운데 정렬 */
+    }
+
+    .sub-nav {
+        position: static;
+    }
+
+    .show-menu {
+        height: 160px;
+    }
+
+    .nav > ul::before {
+        transform: translate(-101%);
+    }
+
+    .nav > ul {
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    a {
+        color: var(--main-color);
+    }
 }
