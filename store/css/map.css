@@ -5,7 +5,6 @@ html {
 
 body {
     margin: 0;
-    cursor : url(../../img/location-cursor.png) 20 30, auto;
 }
 
 
@@ -69,6 +68,7 @@ body {
     object-fit:scale-down;
     width: 100%;
     height: 500px;
+    cursor : url(../../img/location-cursor.png) 20 30, auto;
 }
 
 .hr1 {
@@ -257,4 +257,13 @@ footer{
 .col-box2 {
     padding-top: 35px;
     margin-right: 100px;
+}
+
+
+
+/* --------------------------- mobile mobile */
+
+.slide-item {
+    width: 100%;
+    display: contents;
 }
