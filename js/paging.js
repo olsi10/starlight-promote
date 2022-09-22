@@ -19,11 +19,33 @@ const pagination = document.querySelector(".slide_pagination");
 
 for (let i = 0; i < maxSlide; i++) {
   if (i === 0) pagination.innerHTML += `<li class="active">★</li>`;
-  else pagination.innerHTML += `<li>★</li>`;
+  else pagination.innerHTML += `<li class="active">★</li>`;
 }
 
 const paginationItems = document.querySelectorAll(".slide_pagination > li");
 console.log(paginationItems);
+
+let lii = document.querySelector('.active:nth-child(1)');
+lii.addEventListener("click", () => {
+  document.getElementById("img").src = "../../img/map/001.jpg";
+})
+
+let li = document.querySelector('.active:nth-child(2)');
+li.addEventListener("click", () => {
+  document.getElementById("img").src = "../../img/map/002.jpg";
+})
+
+let li2 = document.querySelector('.active:nth-child(3)');
+li2.addEventListener("click", () => {
+  document.getElementById("img").src = "../../img/map/003.jpg";
+})
+
+let li3 = document.querySelector('.active:nth-child(4)');
+li3.addEventListener("click", () => {
+  document.getElementById("img").src = "../../img/map/004.jpg";
+})
+
+
 
 // 버튼 엘리먼트에 클릭 이벤트 추가하기
 nextBtn.addEventListener("click", () => {
