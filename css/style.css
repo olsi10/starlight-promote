@@ -14,7 +14,7 @@ body {
 .box1 { 
     max-height: 900px;
     min-height: 400px;
-    background-image: url(/img/main-background.png);
+    background-image: url(../img/main-background.png);
     display: flex;
     justify-content: center;
     align-items: center;
