@@ -31,13 +31,13 @@ nextBtn.addEventListener("click", () => {
   currSlide++;
 
   if(currSlide == 1) {
-    document.getElementById("img").src = "/img/map/001.jpg";
+    document.getElementById("img").src = "../img/map/001.jpg";
     } else if(currSlide == 2) {
-        document.getElementById("img").src = "/img/map/002.jpg";
+        document.getElementById("img").src = "../img/map/002.jpg";
     } else if(currSlide == 3) {
-        document.getElementById("img").src = "/img/map/003.jpg";
+        document.getElementById("img").src = "../img/map/003.jpg";
     } else if(currSlide == 4) {
-        document.getElementById("img").src = "/img/map/004.jpg";
+        document.getElementById("img").src = "../img/map/004.jpg";
 }
   
   // 마지막 슬라이드 이상으로 넘어가지 않게 하기 위해서
@@ -61,13 +61,13 @@ prevBtn.addEventListener("click", () => {
   currSlide--;
 
   if(currSlide == 1) {
-    document.getElementById("img").src = "/img/map/001.jpg";
+    document.getElementById("img").src = "../img/map/001.jpg";
     } else if(currSlide == 2) {
-        document.getElementById("img").src = "/img/map/002.jpg";
+        document.getElementById("img").src = "../img/map/002.jpg";
     } else if(currSlide == 3) {
-        document.getElementById("img").src = "/img/map/003.jpg";
+        document.getElementById("img").src = "../img/map/003.jpg";
     } else if(currSlide == 4) {
-        document.getElementById("img").src = "/img/map/004.jpg";
+        document.getElementById("img").src = "../img/map/004.jpg";
 }
 
   // 1번째 슬라이드 이하로 넘어가지 않게 하기 위해서
