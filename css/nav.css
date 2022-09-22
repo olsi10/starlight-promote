@@ -186,10 +186,6 @@ nav i {
         margin: 0 auto; /* 가운데 정렬 */
     }
     
-    .bxs-x-square {
-        transform: translate(0%)!important;
-    }
-
     .nav-list {
         flex-direction: column;
         position: absolute;
