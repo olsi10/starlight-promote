@@ -3,6 +3,7 @@
 }
 
 @media screen and (max-width: 768px) {
+
     #main-card {
         display: flex;
     }
@@ -23,8 +24,8 @@
     .card {
         background-color: #FFD02C;
         border-radius: 1rem;
-        width: 111px;
-        height: 171px;
+        width: 112px;
+        height: 182px;
         cursor: pointer;
     }
 
@@ -43,13 +44,16 @@
         display: flex;
         justify-content: center; 
         column-gap: 20px;
-        font-size: 13px;
+        font-size: 11px;
+        text-decoration:1px underline black;
+        text-underline-position:under;
     }
 
     .card-menu {
+        
         font-size: 8px;
         text-align: center; 
-        margin: 0;
+        margin: 5px 0 0 0;
         color: #000;
     }
 }
