@@ -186,10 +186,6 @@ nav i {
         margin: 0 auto; /* 가운데 정렬 */
     }
     
-    .bxs-x-square {
-        transform: translate(0%)!important;
-    }
-
     .nav-list {
         flex-direction: column;
         position: absolute;
@@ -199,10 +195,12 @@ nav i {
         background-color: #fff;
         height: 0; /* overflow: hidden과 함께 메뉴가 안 보이게 함 */
         overflow: hidden;
+
+        transition: 0.3s;
     }
 
     .nav > ul {
-        margin: -0px auto;
+        margin: 0px auto;
     }
 
     .nav-item {
@@ -217,6 +215,7 @@ nav i {
 
     .show-menu {
         height: 300px;
+        padding-top: 50px;
     }
 
     .nav > ul::before {
