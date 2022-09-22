@@ -12,6 +12,7 @@
 
 * {
     font-family: 'GyeonggiBatang';
+    scroll-behavior: smooth;
 }
 
 body{
