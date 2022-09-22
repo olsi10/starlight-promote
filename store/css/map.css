@@ -68,7 +68,7 @@ body {
     object-fit:scale-down;
     width: 100%;
     height: 500px;
-    cursor : url(/img/location-cursor.png) 20 30, auto;
+    cursor : url(../../img/location-cursor.png) 20 30, auto;
 }
 
 .hr1 {
