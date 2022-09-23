@@ -46,8 +46,8 @@ body {
 }
 
 #page1 img {
-    width: 625px;
-    height: 579px;
+    width: 600px;
+    height: 500px;
 }
 .txt-div{
     margin: auto 0;;
@@ -62,16 +62,17 @@ body {
     text-align: left;
     margin-top: 5%;
     display: flex;
-    justify-content: left;
-    padding-left: 40px;
+    margin: 20px;
+    justify-content: flex-start;
 }
 /*hr태그 왼쪽 정렬! */
-hr{
-    border:solid 1px black;
-    width: 302px; 
-    margin-top: 30px;
+h1::after{
+    content: "";
+    display: block;
+    width: 180px;
+    border-bottom: 2px solid black;
+    margin: 20px 0px;
 }
-
 /* page2 */
 #page2 {
     height: 700px;
@@ -79,7 +80,6 @@ hr{
     justify-content: center;
     align-items: center;
 }
-
 .explain-grid {
     margin-top: 5%;
     display: grid;
