@@ -67,10 +67,10 @@
     font-weight: lighter;
 }
 
-img {
+/* img {
     width: 40vw;
     height: auto;
-}
+} */
 
 /*** news-container ***/
 .news-container {
@@ -110,27 +110,4 @@ img {
     font-family: 'Noto Sans KR', sans-serif;
     font-size: 0.9rem;
     font-weight: lighter;
-}
-
-/*** FOOTER ***/
-
-footer {
-    width: 100%;
-    height: 200px;
-    margin-top: 180px;
-    background-color: #fff;
-}
-
-.footer-container {
-    display: flex;
-    justify-content: space-between;
-}
-
-.col-box1 {
-    margin-left: 100px;
-}
-
-.col-box2 {
-    padding-top: 35px;
-    margin-right: 100px;
 }
