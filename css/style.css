@@ -21,8 +21,8 @@ body {
 }
 
 .main-logo {
-    max-width: 1500px;
-    max-height: 800px;
+    width: 100%;
+    height: auto;
 }
 
 .box2 {
@@ -64,9 +64,6 @@ body {
 }
 
 /*** box1 ***/
-.main-logo {
-    min-width: 600px;
-}
 
 /*** box2 ***/
 .box2 .keyword {
