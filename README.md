@@ -31,7 +31,6 @@
 |:--:|:--:|:--:|
 |<img src="https://user-images.githubusercontent.com/87300199/191880306-51d2ad3a-900a-4d36-94e7-a1237b78644d.png" width="900">|<img src="https://user-images.githubusercontent.com/87300199/191880364-5a40a074-73ff-4b0f-a8e5-5c982f747ca0.png" width="900">|<img src="https://user-images.githubusercontent.com/87300199/191880510-b2f8ae88-ea33-4e6c-9a63-5bf2828a0abd.png" width="900">
 |개요|점포 위치|콘텐츠|
-|:--:|:--:|:--:|
 |<img src="https://user-images.githubusercontent.com/87300199/191880714-d3de2027-9034-4497-a297-dac5d77bf3a6.png" width="900">|<img src="https://user-images.githubusercontent.com/87300199/191880811-8a1f352f-c89a-477c-aabc-7bcbf5d85859.png">|<img src="https://user-images.githubusercontent.com/87300199/191880938-37e82266-2745-4e7a-98f0-d92f141485f4.png">|
 
 <br />
