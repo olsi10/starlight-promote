@@ -18,8 +18,8 @@ let currSlide = 1;
 const pagination = document.querySelector(".slide_pagination");
 
 for (let i = 0; i < maxSlide; i++) {
-  if (i === 0) pagination.innerHTML += `<li class="active">★</li>`;
-  else pagination.innerHTML += `<li class="active">★</li>`;
+  if (i === 0) pagination.innerHTML += `<li class="active"><a href="#map">★</a></li>`;
+  else pagination.innerHTML += `<li class="active"><a href="#map">★</a></li>`;
 }
 
 const paginationItems = document.querySelectorAll(".slide_pagination > li");
@@ -83,13 +83,13 @@ prevBtn.addEventListener("click", () => {
   currSlide--;
 
   if(currSlide == 1) {
-    document.getElementById("img").src = "../img/map/001.jpg";
+    document.getElementById("img").src = "../../img/map/001.jpg";
     } else if(currSlide == 2) {
-        document.getElementById("img").src = "../img/map/002.jpg";
+        document.getElementById("img").src = "../../img/map/002.jpg";
     } else if(currSlide == 3) {
-        document.getElementById("img").src = "../img/map/003.jpg";
+        document.getElementById("img").src = "../../img/map/003.jpg";
     } else if(currSlide == 4) {
-        document.getElementById("img").src = "../img/map/004.jpg";
+        document.getElementById("img").src = "../../img/map/004.jpg";
 }
 
   // 1번째 슬라이드 이하로 넘어가지 않게 하기 위해서
