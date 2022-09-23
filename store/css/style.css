@@ -171,5 +171,6 @@ h1::after {
     .column-item {
         padding: 8px;
         font-size: 14px;
+        word-break:break-all
     }
 }
