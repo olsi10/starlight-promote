@@ -1,9 +1,9 @@
 .container {
     display: block;
     width: 100%;
-    height: auto;
-    padding: 30px 0 30px 0;
-    margin-top: 100px;
+    height: 100%;
+    margin-top: 50px;
+    padding: 3px;
     background-color: #112F6B;
     position: relative;
 }
