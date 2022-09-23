@@ -63,6 +63,7 @@ body {
     margin-top: 5%;
     display: flex;
     justify-content: left;
+    padding-left: 40px;
 }
 /*hr태그 왼쪽 정렬! */
 hr{
@@ -86,7 +87,9 @@ hr{
     grid-column-gap: 45%;
     text-align: center;
 }
-
+.left{
+    border-right: 1px solid red;
+}
 .column-item {
     padding: 1rem;
     grid-column-gap: 80px;
