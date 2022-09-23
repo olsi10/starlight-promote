@@ -39,39 +39,47 @@ body {
 
 /* page1 */
 #page1 {
-    height: 600px;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 50px;
+    text-align: center;
+}
+
+#page1 img {
+    width: 600px;
+    height: 500px;
+}
+.txt-div{
+    margin: auto 0;;
+}
+.txt1 {
+    display: inline-block;
+    font-size: 40px;
+    line-height: 2;
+}
+/* title */
+.title {
+    text-align: left;
+    margin-top: 5%;
+    display: flex;
+    margin: 20px;
+    justify-content: flex-start;
+}
+/*hr태그 왼쪽 정렬! */
+h1::after{
+    content: "";
+    display: block;
+    width: 180px;
+    border-bottom: 2px solid black;
+    margin: 20px 0px;
+}
+/* page2 */
+#page2 {
+    height: 700px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
-
-#page1 img {
-    margin-top: 50px;
-    width: 625px;
-    height: 579px;
-    margin-right: 10%;
-    vertical-align: middle;
-}
-
-.txt1 {
-    margin-top: 50px;
-    display: inline-block;
-    font-size: 60px;
-    text-align: center;
-    align-items: center;
-}
-
-/* page2 */
-#page2 {
-    height: 700px;
-}
-
-.title {
-    text-align: left;
-    margin-left: 10%;
-    margin-top: 5%;
-}
-
 .explain-grid {
     margin-top: 5%;
     display: grid;
@@ -82,13 +90,12 @@ body {
     top: 50%;
     left: 50%;
     width: 67%;
-    transform: translate(-50%, -50%);
-}
-
+    transform: translate(-50%, -50%);}
 .column-item {
     padding: 1rem;
     grid-column-gap: 80px;
     text-align: center;
+    justify-content: center;
 }
 
 .explain-grid .column-item:nth-child(2n+1) {
