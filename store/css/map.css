@@ -231,7 +231,7 @@ li {
 }  */
 /* --------------------- */
 
-.grid-item:nth-child(5n+0):hover {
+.grid-item:nth-child(4n+0):hover {
     color: #FFD02C;
     cursor: pointer;
 }
