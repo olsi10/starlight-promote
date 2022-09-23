@@ -88,6 +88,7 @@ body {
     padding-top: 4%;
     max-width: 35vw;
     max-height: 20vw;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.25);
 }
 
 .box2 .moon-img {
@@ -142,7 +143,7 @@ body {
     padding-top: 26%;
 }
 
-.box3 .main-img {
+.box3 .main-img2 {
     position: relative;
     max-width: 40vw;
     max-height: 25vw;
