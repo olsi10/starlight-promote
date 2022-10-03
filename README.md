@@ -1,5 +1,5 @@
 # starlight-promote ⭐
-> 별빛 신사리 상권 홍보 프로젝트
+> 별빛 신사리 상권 홍보 프로젝트 >> [바로가기](https://bit.ly/starlight-promote)
 
 <br/>
 
